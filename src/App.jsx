@@ -24,10 +24,6 @@ function App() {
               <ProtectedRoute>
                 <Navbar />
                 <Home />
-                <ProjectCards/>
-                <DialogueSection/>
-                <FooterSection/>
-         
               </ProtectedRoute>
             }
           />
