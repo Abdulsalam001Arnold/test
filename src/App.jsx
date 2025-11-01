@@ -22,9 +22,12 @@ function App() {
             path="/"
             element={
               <ProtectedRoute>
-                <Navbar />
-                <Home />
-              </ProtectedRoute>
+        <Navbar />
+        <Home />
+        <ProjectCards/>
+        <DialogueSection/>
+        <FooterSection/>
+       </ProtectedRoute>
             }
           />
 
